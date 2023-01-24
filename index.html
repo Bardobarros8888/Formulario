@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de Clientes</b></legend>
+                <br>
+
+                <div class="inputBox">
+                    <label for="name" class="labelInput">Nome completo</label>
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <label for="name" class="labelInput">Email</label>
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                </div>
+                <br><br>
+
+                <div class="inputBox">
+                    <label for="name" class="labelInput">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                </div>
+                
+                              
+                <!-- lembrar de abrir um "outro" para a pessoa poder colocar o genero que ela quiser -->
+                <br><br>
+                
+                <p>Genero:</p>
+                    <input type="radio" id="trans_nb" name="genero" value="trans_nb" required>
+                    <label for="">Trans NB</label>
+                    <br>
+                    <input type="radio" id="mulher_trans" name="genero" value="Mulher_trans" required>
+                    <label for="Mulher">Mulher trans /travesti</label>
+                    <br>
+                    <input type="radio" id="mulher_cis" name="genero" value="Mulher_cis" required>
+                    <label for="Mulher">Mulher cis</label>
+                    <br>
+                    <input type="radio" id="homem_trans" name="genero" value="homem_trans" required>
+                    <label for="">Homem trans</label>
+                    <br>
+                    <input type="radio" id="homem_cis" name="genero" value="homem_cis" required>
+                    <label for="">Homem cis</label>
+                <br><br>
+                    
+                        <label for="data_nascimento"><b>Data de Nascimento</b></label>
+                        <input type="date" name="data_nascimento" id="data_nascimento" required>
+                <br><br>
+
+                    <div class="inputBox">
+                        <label for="cidade" class="labelInput">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    </div>
+                <br><br>
+
+                    <div class="inputBox">
+                        <label for="estado" class="labelInput">Estado</label>
+                        <input type="text" name="estado" id="estado" class="inputUser" required>
+                    </div>
+                <br><br>
+                    
+                    <div class="inputBox">
+                        <label for="endereço" class="labelInput">endereço</label>
+                        <input type="text" name="endereço" id="endereço" class="inputUser" required>
+                    </div>
+                <br><br>
+                    <input type="submit" name="enviar" id="submit">
+
+            
+        </form>
+    </div>
+
+</body>
+</html>
